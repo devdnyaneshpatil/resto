@@ -1,7 +1,12 @@
 {
   "rewrites": [
-    { "source": "/sign-up", "destination": "/sign-up" },
-    { "source": "/home", "destination": "/home" },
-    { "source": "/(.*)", "destination": "/" }
+    {
+      "source": "/restaurant/:id",
+      "destination": "/"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
   ]
 }
