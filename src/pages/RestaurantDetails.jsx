@@ -425,7 +425,7 @@ function RestaurantDetails() {
       revName: "Anonymous",
       rating,
       comment,
-      pp: "path/to/default/profile-pic.png",
+      pp: "dummy.image",
     };
 
     restaurant.ratings.push(newReview);
